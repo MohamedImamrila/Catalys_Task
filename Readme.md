@@ -62,12 +62,12 @@ Ensure the JSON files are placed in the `Mock_Data` directory. The structure sho
      - **Method**: `GET`
      - **Description**: Retrieves the processed data, which includes:
        - All text fields converted to uppercase.
-       - The total sum of all `price` fields in the JSON data.
+       - The sum of all `price` fields in the JSON data.
 
 ## Configuration
 
 - **Secret Key**: The session management uses a secret key (`'catalys'`) for security purposes.
-- **Session Lifetime**: Sessions are set to be permanent with a lifetime of 60 seconds.
+- **Session Lifetime**: Sessions are set to be permanent with a lifetime of 10 minutes.
 
 ## Example JSON File Structure
 
