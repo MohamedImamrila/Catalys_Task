@@ -1,0 +1,95 @@
+{
+    "products": [
+      {
+        "id": 1234567890,
+        "title": "Vintage Leather Jacket",
+        "body_html": "<strong>A classic leather jacket</strong> with a modern twist.",
+        "vendor": "Vintage Wear",
+        "product_type": "Jacket",
+        "created_at": "2024-08-11T14:55:47-04:00",
+        "handle": "vintage-leather-jacket",
+        "updated_at": "2024-08-11T14:55:47-04:00",
+        "published_at": "2024-08-11T14:55:47-04:00",
+        "variants": [
+          {
+            "id": 1011121314,
+            "title": "Black / Small",
+            "option1": "Black",
+            "option2": "Small",
+            "price": 199.99,
+            "sku": "VJ-BLK-S",
+            "inventory_quantity": 50,
+            "requires_shipping": true
+          },
+          {
+            "id": 1011121315,
+            "title": "Black / Medium",
+            "option1": "Black",
+            "option2": "Medium",
+            "price": 199.99,
+            "sku": "VJ-BLK-M",
+            "inventory_quantity": 30,
+            "requires_shipping": true
+          }
+        ],
+        "images": [
+          {
+            "id": 6789012345,
+            "src": "https://example.com/image1.jpg",
+            "position": 1
+          },
+          {
+            "id": 6789012346,
+            "src": "https://example.com/image2.jpg",
+            "position": 2
+          }
+        ]
+      },
+      {
+        "id": 2233445566,
+        "title": "Casual Denim Shirt",
+        "body_html": "<strong>Comfortable denim shirt</strong> for everyday wear.",
+        "vendor": "Denim Co",
+        "product_type": "Shirt",
+        "created_at": "2024-08-10T10:12:34-04:00",
+        "handle": "casual-denim-shirt",
+        "updated_at": "2024-08-11T10:12:34-04:00",
+        "published_at": "2024-08-10T10:12:34-04:00",
+        "variants": [
+          {
+            "id": 3031323334,
+            "title": "Blue / Large",
+            "option1": "Blue",
+            "option2": "Large",
+            "price": 79.99,
+            "sku": "DS-BLU-L",
+            "inventory_quantity": 100,
+            "requires_shipping": true
+          },
+          {
+            "id": 3031323335,
+            "title": "Blue / X-Large",
+            "option1": "Blue",
+            "option2": "X-Large",
+            "price": 79.99,
+            "sku": "DS-BLU-XL",
+            "inventory_quantity": 75,
+            "requires_shipping": true
+          }
+        ],
+        "images": [
+          {
+            "id": 7890123456,
+            "src": "https://example.com/image3.jpg",
+            "position": 1
+          },
+          {
+            "id": 7890123457,
+            "src": "https://example.com/image4.jpg",
+            "position": 2
+          }
+        ]
+      }
+    ]
+  }
+  
